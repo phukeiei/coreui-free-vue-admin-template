@@ -10,6 +10,16 @@ export default [
     },
   },
   {
+    component: 'CNavItem',
+    name: 'Scanner',
+    to: '/scanner',
+    icon: 'cil-print',
+    badge: {
+      color: 'secondary',
+      text: 'TEST',
+    },
+  },
+  {
     component: 'CNavTitle',
     name: 'Theme',
   },
