@@ -259,11 +259,6 @@ const routes = [
         name: 'Widgets',
         component: () => import('@/views/widgets/Widgets.vue'),
       },
-      {
-        path: '/scanner',
-        name: 'Scanner',
-        component: () => import('@/views/scanner/TwainScanner.vue'),
-      },
     ],
   },
   {
